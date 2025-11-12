@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /adamsbakery/backend/
+
+# URL seperti /backend/reset_password/123abc...
+RewriteRule ^reset_password/([a-zA-Z0-9]+)/?$ reset_password.php?token=$1 [L,QSA]
