@@ -34,7 +34,10 @@ $promos = $conn->query("SELECT * FROM promos ORDER BY created_at DESC");
     <meta charset="UTF-8">
     <title>Kelola Promo - Admin</title>
     <link rel="stylesheet" href="../css/style.css">
+<<<<<<< HEAD
     <link rel="icon" type="image/png" href="../assets/logoadambakery.png">
+=======
+>>>>>>> 5163a4946f68ea1915a84c755a0899aa86013e39
 </head>
 <body>
 <header class="admin-header">

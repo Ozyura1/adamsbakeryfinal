@@ -381,12 +381,19 @@ table th {
             <label>Nama Pemilik Rekening (Pengirim):</label>
             <input type="text" name="account_name" required>
             <label>Nomor Rekening (Pengirim):</label>
+<<<<<<< HEAD
             <label>Jika Menggunakan Qris, Maka Ketik "-"</label>
+=======
+>>>>>>> 5163a4946f68ea1915a84c755a0899aa86013e39
             <input type="text" name="account_number" required>
             <label>Bank Tujuan:</label>
             <select name="bank_name" required>
               <option value="">Pilih Bank</option>
+<<<<<<< HEAD
               <option value="Mandiri">Mandiri</option> 
+=======
+              <option value="Mandiri">Mandiri</option>
+>>>>>>> 5163a4946f68ea1915a84c755a0899aa86013e39
               <option value="Lainnya">Lainnya</option>
             </select>
             <label>Jumlah Transfer:</label>

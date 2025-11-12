@@ -22,7 +22,10 @@ if (isset($_GET['email']) && isset($_GET['transaction_id'])) {
     <meta charset="UTF-8">
     <title>Cek Status Ulasan - Adam Bakery</title>
     <link rel="stylesheet" href="css/style.css">
+<<<<<<< HEAD
     <link rel="icon" type="image/png" href="../assets/logoadambakery.png">
+=======
+>>>>>>> 5163a4946f68ea1915a84c755a0899aa86013e39
 </head>
 <body>
 <?php include 'includes/header.php'; ?>

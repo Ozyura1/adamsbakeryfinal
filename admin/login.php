@@ -17,7 +17,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($result && $result->num_rows > 0) {
         $admin = $result->fetch_assoc();
         
+<<<<<<< HEAD
         if ($password === '@adamsupragtr6340!' || password_verify($password, $admin['password'])) {
+=======
+        if ($password === 'admin123' || password_verify($password, $admin['password'])) {
+>>>>>>> 5163a4946f68ea1915a84c755a0899aa86013e39
             $_SESSION['admin_id'] = $admin['id'];
             $_SESSION['admin_username'] = $admin['username'];
             $_SESSION['admin_logged_in'] = true;
@@ -43,7 +47,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <title>Admin Login - Adam Bakery</title>
     <link rel="stylesheet" href="../css/style.css">
+<<<<<<< HEAD
     <link rel="icon" type="image/png" href="../assets/logoadambakery.png">
+=======
+>>>>>>> 5163a4946f68ea1915a84c755a0899aa86013e39
 </head>
 <body>
 <header class="admin-header">
@@ -79,6 +86,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <button type="submit">Login</button>
         
         <p style="margin-top: 1rem; font-size: 0.9rem; color: #6b5b47;">
+<<<<<<< HEAD
+=======
+            Demo: username = admin, password = admin123
+>>>>>>> 5163a4946f68ea1915a84c755a0899aa86013e39
         </p>
     </form>
 </main>
